@@ -1,0 +1,64 @@
+body {
+    background: #EA738DFF;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cool-1g-4 {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    padding: 10px;
+    background: #EA738DFF;
+    border-radius: 2px;
+    outline: none;
+    color: #444444;
+    border: 1px solid #ADEFD1FF;
+  }
+  
+  .placeholder {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    font-size: 14px;
+    padding: 0px 5px;
+    color: #00203FFF;
+    transition: 0.3s;
+    pointer-events: none;
+  }
+  
+  .input:focus + .placeholder,
+  .input:not(:placeholder-shown) + .placeholder {
+    top: -10px;
+    background-color: #EA738DFF;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .delete-form {
+    width: 300px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+
+  
